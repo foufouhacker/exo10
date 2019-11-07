@@ -1,0 +1,19 @@
+#Cocci {
+    width: 600PX;
+
+#magicText {
+    font-size: 500px;
+}
+}
+
+@media all and (max-width: 550px) {
+    #Cocci {
+        width: 200px;
+    }
+}
+
+@media all and(max-width: 550PX) {
+    #magicText {
+        font-size;: 200px;
+    }
+}
